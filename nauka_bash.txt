@@ -1,0 +1,24 @@
+<h1> Podstawy bash</h1>
+
+<h4>komendy</h4>
+
+<b>mkdir</b> - tworzenie katalogu<br>
+<b>touch</b> - tworzenie pliku<br>
+<b>echo</b> - przekazanie tresci "text" >> plik.text<br>
+<b>grep</b> - wyszukiwanie<br>
+<b>cp</b> - copy / kopiowanie<br>
+<b>mv</b> - move / przeniesienie<br>
+
+wyciecie przecinkow 1 kolumna<br>
+tester@tester-m:~/nauka_gita$ cat produkty.txt | cut -d',' -f1
+
+wyciecie przecinkow sklejenie tekstu<br>
+tester@tester-m:~/nauka_gita$ cat */produkty.txt | cut -d',' -f2 | paste - - | tr ',' '=' | sort -n
+
+head / less / tail;
+zamiana kota na psa
+echo "ala ma kota" | sed /s/kota/psa/g/
+
+<h2>zmienne srodowiskowe</h2>
+export IMIE=Michal<br>
+echo "$IMIE"

@@ -5,3 +5,4 @@
 <i>wsb chorzow</i>
 <br>
 <b>Katowice</b>
+zmiana trzecia

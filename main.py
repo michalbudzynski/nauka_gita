@@ -27,6 +27,14 @@
 
 #print (len(rok_prod))
 
-for idx in range(len(samochody)):
+#for idx in range(len(samochody)):
     print("idx: " + str(idx) + ": " + samochody[idx])
     print(samochody[idx] + ", rok produkcji: " + str(rok_prod[idx]))
+
+#samolot = ("name:" 'boeing', 'przebieg:' '1000', "rok produkcji" '1988')
+#    print(samolot['name'])
+#for key, value in samolot.iteritems():
+#    print("{0}:{1}".format(key,value))
+
+#for key in samoloty:
+#    print("{0}:{1},key, samoloty[key]")

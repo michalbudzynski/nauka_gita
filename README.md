@@ -7,3 +7,5 @@
 <b>Katowice</b>
 zmiana trzecia
 czwarta
+
+To bedzie instrukcja
